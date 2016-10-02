@@ -1,0 +1,118 @@
+@mixin caret($width,$direction,$color)
+{
+	display: inline-block;
+
+	 @if $direction == up {
+	 	   height:0;
+	 	   width:0;
+		   border-left:$width solid transparent;
+		   border-right:$width solid transparent;
+		   border-bottom:$width solid $color;
+	   } 
+
+	   @if $direction == down {
+	   	   height:0;
+	 	   width:0;
+		   border-left:$width solid transparent;
+		   border-right:$width solid transparent;
+		   border-top:$width solid $color;
+		   
+	   }
+
+	   @if $direction == left {
+	   	   height:0;
+	 	   width:0;
+		   border-top:$width solid transparent;
+		   border-right:$width solid $color;
+		   border-bottom:$width solid transparent;
+		   
+	   } 
+	     @if $direction == right {
+
+	       height:0;
+	 	   width:0;
+		   border-top:$width solid transparent;
+		   border-left:$width solid $color;
+		   border-bottom:$width solid transparent;
+		 
+	   } 
+
+	   @if $direction == top-left {
+
+	       height:0;
+	 	   width:0;
+		   border-top: $width solid $color; 		   
+		   border-right: $width solid transparent;
+		 
+	   }
+
+	   @if $direction == top-right {
+
+	       height:0;
+	 	   width:0;
+		   border-bottom: $width solid transparent; 		   
+		   border-right: $width solid $color;
+		   
+		 
+	   }
+	   @if $direction == bottom-right{
+
+	       height:0;
+	 	   width:0;
+		   border-top: $width solid transparent;
+           border-right: $width solid pink;
+
+	   }
+
+	   @if $direction == bottom-left{
+	       height:0;
+	 	   width:0;
+		   border-top: $width solid transparent;
+           border-left: $width solid pink;
+
+		 
+	   }
+
+}
+
+
+triangle-up{
+
+	@include caret (150px, up, pink);	
+}
+
+triangle-down{
+
+	@include caret (150px, down, pink);	
+}
+
+triangle-right{
+	@include caret (150px, right, pink);	
+}
+
+triangle-left{
+	@include caret (150px, left, pink);	
+}
+
+
+triangle-top-left{
+	@include caret (250px, top-left, pink);	
+}
+
+triangle-top-right{
+	@include caret (250px, top-right, pink);	
+}
+
+triangle-bottom-right{
+	@include caret (250px, bottom-right, pink);	
+}
+
+triangle-bottom-left{
+	@include caret (250px, bottom-left, pink);	
+}
+
+
+
+
+
+
