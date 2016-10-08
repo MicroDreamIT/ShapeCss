@@ -1,6 +1,16 @@
 @mixin caret($width,$direction,$color)
 {
+
 	display: inline-block;
+
+
+	@if($direction == ''){
+		height:0;
+	 	   width:0;
+		   border-left:$width solid transparent;
+		   border-right:$width solid transparent;
+		   border-bottom:$width solid $color;
+	}
 
 	 @if $direction == up {
 	 	   height:0;
@@ -112,7 +122,9 @@ triangle-bottom-left{
 }
 
 
-
+triangle{
+	@include caret (250px, '', pink);
+}
 
 
 
