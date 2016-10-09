@@ -6,20 +6,23 @@ export class Triangleup{
 	}
 
 	static processTriangle(triangle){
-	
-
 		if (triangle.hasAttribute('shape-height')){
 			getShapeHeight();
 		}
-
 		if(triangle.hasAttribute('shape-width')){
 			getShapeWidth();
 		}
-
-        if(triangle.hasBindAttr('shape-background')){
+        if(triangle.hasAttribute('shape-background') && (triangle.hasAttribute('shape-width') || triangle.hasAttribute('shape-height'))){
             getShapeBackground();
+        }else{
+           onlyBackgroundWithoutHeightAndWidth();
         }
-
+        function onlyBackgroundWithoutHeightAndWidth() {
+            var style = window.getComputedStyle(triangle);
+            var value = style.getPropertyValue('border-bottom');
+            var border = value.split(' ')[0];
+            triangle.style.borderBottom = border + ' solid' + ' ' + getShapeBackground();
+        }
         function getShapeWidth(){
             var width = triangle.getAttribute('shape-width');
             var value = width.replace(/[^0-9]/g, '');
@@ -29,7 +32,13 @@ export class Triangleup{
                 unit = 'em';
             }
 
-            return value+unit;
+            triangle.style.borderRight= value+unit+' solid'+ ' transparent';
+            triangle.style.borderLeft= value+unit+' solid'+ ' transparent';
+
+            if(!triangle.hasAttribute('shape-height')){
+                onlyBackgroundWithoutHeightAndWidth();
+            }
+
         }
 
         function getShapeBackground(){
@@ -45,70 +54,18 @@ export class Triangleup{
                 		unit = 'em';
             		}
 
-				if(!getShapeWidth()){
-                    triangle.style.borderRight= value+unit+' solid'+ ' transparent';
-                    triangle.style.borderLeft= value+unit+' solid'+ ' transparent';
-                }
-                else{
-                    triangle.style.borderRight= getShapeWidth()+' solid'+ ' transparent';
-                    triangle.style.borderLeft= getShapeWidth()+' solid'+ ' transparent';
-                }
-
                 if(!getShapeBackground()){
                     triangle.style.borderBottom= value+unit+' solid'+ ' pink';
                 }
 				else{
                     triangle.style.borderBottom= value+unit+' solid'+ ' '+ getShapeBackground();
                 }
-				
+
 			}
-		 
-		
-// function getShapeHeight(){
-
-// 				var width = triangle.getAttribute('shape-height');
-
-// 				//unit process
-// 				var value = width.replace(/[^0-9]/g, '');
-//                 var unit = width.replace(/[0-9]/g, '');
-
-//                   if (unit == '%'){
-//                 		unit = 'em';
-//             		}
-
-// 				//triangle process
-				
-// 				triangle.style.borderBottom= value+unit+' solid'+ ' pink';
-// 			}
-
-	// function getBackground() {
- //        var background = triangle.getAttribute('shape-background');
- //        triangle.style.backgroundColor = background;
- //    }
-
-
-
-	        //  function getBorder() {
-	        //     var border = triangle.getAttribute('shape-border');
-
-	        //     if (border.indexOf(',')>-1) {
-	        //         var match = border.split(/\s*,\s*/);
-	                
-	        //         triangle.style.border= match[0] + 'px solid ' + match[1];
-	                            
-	        //     } else {
-	        //     	if(border.match(/^[0-9]+$/)!=null){
-         //    			triangle.style.border = border + 'px solid gray';
-	        //     	}
-	        //         triangle.style.border = border + ' solid gray';
-	        //     }
-	        // }
-
-
-
-
 
 	}
+
+
 }
 
 // TRIANGLE-UP START
