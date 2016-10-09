@@ -1,0 +1,127 @@
+circle {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  background: pink;
+  line-height: 200px;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 40px;
+  -moz-border-radius: 100px;
+  -webkit-border-radius: 100px;
+  border-radius: 100px;
+  border: 2px solid #fb8da0;
+  -webkit-transition: all 2s ease-in-out;
+  -moz-transition: all 2s ease-in-out;
+  transition: all 2s ease-in-out; }
+
+oval {
+  height: 150;
+  width: 300;
+  -moz-border-radius: 100%;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+  display: inline-block;
+  background: pink;
+  text-align: center;
+  line-height: 147px;
+  font-size: 40px; }
+
+triangle-up {
+  display: inline-block;
+  height: 0;
+  width: 0;
+  border-left: 150px solid transparent;
+  border-right: 150px solid transparent;
+  border-bottom: 150px solid pink; }
+
+triangle-down {
+  display: inline-block;
+  height: 0;
+  width: 0;
+  border-left: 150px solid transparent;
+  border-right: 150px solid transparent;
+  border-top: 150px solid pink; }
+
+triangle-right {
+  display: inline-block;
+  height: 0;
+  width: 0;
+  border-top: 150px solid transparent;
+  border-left: 150px solid pink;
+  border-bottom: 150px solid transparent; }
+
+triangle-left {
+  display: inline-block;
+  height: 0;
+  width: 0;
+  border-top: 150px solid transparent;
+  border-right: 150px solid pink;
+  border-bottom: 150px solid transparent; }
+
+triangle-top-left {
+  display: inline-block;
+  height: 0;
+  width: 0;
+  border-top: 250px solid pink;
+  border-right: 250px solid transparent; }
+
+triangle-top-right {
+  display: inline-block;
+  height: 0;
+  width: 0;
+  border-bottom: 250px solid transparent;
+  border-right: 250px solid pink; }
+
+triangle-bottom-right {
+  display: inline-block;
+  height: 0;
+  width: 0;
+  border-top: 250px solid transparent;
+  border-right: 250px solid pink; }
+
+triangle-bottom-left {
+  display: inline-block;
+  height: 0;
+  width: 0;
+  border-top: 250px solid transparent;
+  border-left: 250px solid pink; }
+
+square {
+  display: inline-block;
+  height: 150px;
+  width: 150px;
+  background: mistyrose;
+  line-height: 150px;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 15px;
+  border: 1px solid pink; }
+
+parallelogram {
+  display: inline-block;
+  height: 150px;
+  width: 100px;
+  background: mistyrose;
+  line-height: 150px;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 15px;
+  border: 1px solid pink;
+  -webkit-transform: skew(20deg);
+  -moz-transform: skew(20deg);
+  -o-transform: skew(20deg);
+  transform: skew(20deg); }
+
+rectangle {
+  display: inline-block;
+  height: 100px;
+  width: 150px;
+  background: mistyrose;
+  line-height: 100px;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 15px;
+  border: 1px solid pink; }
+
+/*# sourceMappingURL=main.css.map */
