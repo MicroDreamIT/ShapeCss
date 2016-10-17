@@ -15,3 +15,6 @@ We found making geometrical shape is not easy but its cumbersome, and need to wr
 ```
 ##Documentation
 check <a href="https://www.shapecss.com/documentation" target="_blank">shapecss website</a> and find easy and clean documentation.
+
+##Contribuition
+If you find any bug or want to contribute, you are always welcome by submitting a <a href="https://github.com/MicroDreamIT/ShapeCss/pulls" target="_blank">pull request</a>
