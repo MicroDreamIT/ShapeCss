@@ -18,3 +18,6 @@ check <a href="https://www.shapecss.com/documentation" target="_blank">shapecss 
 
 ##Contribuition
 If you find any bug or want to contribute, you are always welcome by submitting a <a href="https://github.com/MicroDreamIT/ShapeCss/pulls" target="_blank">pull request</a>
+
+##Stay in touch
+For latest releases, announcements and fun, follow on Twitter: <a href="https://twitter.com/microdreamit" target="_blank">@microdreamit</a>
