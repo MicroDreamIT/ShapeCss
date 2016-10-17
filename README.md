@@ -21,3 +21,6 @@ If you find any bug or want to contribute, you are always welcome by submitting 
 
 ##Stay in touch
 For latest releases, announcements and fun, follow on Twitter: <a href="https://twitter.com/microdreamit" target="_blank">@microdreamit</a>
+
+##License
+<a href="https://opensource.org/licenses/MIT" target="_blank">MIT</a>
