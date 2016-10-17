@@ -7,6 +7,11 @@ We found making geometrical shape is not easy but its cumbersome, and need to wr
 
 ##Example
 ```html
-<circle></circle> //basic circle, easy right?
-<circle shape-background="blue" shape-radius="400px"><circle> //circle with radius 400px and background blue
+//basic circle, easy
+<circle></circle> 
+
+//circle with radius 400px and background blue
+<circle shape-background="blue" shape-radius="400px"><circle> 
 ```
+##Documentation
+check <a href="https://www.shapecss.com/documentation" target="_blank">shapecss website</a> and find easy and clean documentation.
