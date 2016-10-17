@@ -7,10 +7,10 @@ We found making geometrical shape is not easy but its cumbersome, and need to wr
 
 ##Example
 ```html
-//basic circle, easy
+<!--basic circle, easy-->
 <circle></circle> 
 
-//circle with radius 400px and background blue
+<!--circle with radius 400px and background blue-->
 <circle shape-background="blue" shape-radius="400px"><circle> 
 ```
 ##Documentation
