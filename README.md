@@ -3,7 +3,7 @@
 If you'd like to join them, check out shapecss.com' developers campaign.</p>
 
 ##Intro
-We found making geometrical shape is not easy but its cumbersome, and need to write many lines of css and javascripts. So we wanted to make it flexable like tag, like h1, h2 or p or body. Please download this two files from [here](https://github.com/MicroDreamIT/ShapeCss/tree/master/lib)
+We found making geometrical shape is not easy but its cumbersome, and need to write many lines of css and javascripts. So we wanted to make it flexable like tag, like h1, h2 or p or body. So you can use this tags, **circle**, **triangle**, **square**, **rectangle**, **parallelogram**. Please download this two files from [here](https://github.com/MicroDreamIT/ShapeCss/tree/master/lib)
 
 or you can try **cdnjs**(coming soon)
 
