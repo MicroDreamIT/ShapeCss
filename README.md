@@ -1,4 +1,4 @@
-# Supporting Shapecss [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+# Supporting Shapecss [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/MicroDreamIT/ShapeCss)
 
 <h1>Supporting Shapecss</h1>
 <p>ShapeCss is an MIT-licensed open source project. Its ongoing development is made possible thanks to the support by these awesome backer. 
