@@ -1,5 +1,4 @@
-# Awesome README [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
-> A curated list of awesome README
+# Supporting Shapecss [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
 <h1>Supporting Shapecss</h1>
 <p>ShapeCss is an MIT-licensed open source project. Its ongoing development is made possible thanks to the support by these awesome backer. 
@@ -8,8 +7,8 @@ If you'd like to join them, check out shapecss.com' developers campaign.</p>
 ##Intro
 We found making geometrical shape is not easy but its cumbersome, and need to write many lines of css and javascripts. So we wanted to make it flexable like tag, like h1, h2 or p or body. So you can use this tags, **circle**, **triangle**, **square**, **rectangle**, **parallelogram**. 
 
-Please download this two files from [here](https://github.com/MicroDreamIT/ShapeCss/tree/master/lib)
-or you can try **cdnjs**(coming soon)
+> Please download this two files from [here](https://github.com/MicroDreamIT/ShapeCss/tree/master/lib)
+> or you can try **cdnjs**(coming soon)
 
 ##Example
 ```html
