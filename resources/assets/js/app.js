@@ -9,7 +9,6 @@ for (var i = 0; i < circles.length; i++) {
     window.onload = Circle.findCircleElement(circles[i]);
 }
 
-
 var parallelograms = document.getElementsByTagName('parallelogram');
 
 for (var i = 0; i < parallelograms.length; i++){
@@ -73,7 +72,3 @@ var triangles = document.getElementsByTagName('triangle');
 for (var i = 0; i < triangles.length; i++){
 	window.onload = Triangle.processingTriangle(triangles[i], null);
 }
-
-const test = new Triangle('I am triangle');
-
-console.log(test.gettingValue());
