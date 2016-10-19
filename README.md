@@ -8,12 +8,13 @@ We found making geometrical shape is not easy but its cumbersome, and need to wr
 
 > Please download this two files from [here](https://github.com/MicroDreamIT/ShapeCss/tree/master/lib)
 
-> or you can try 
+> or
 
 ```html 
 <link href="https://www.shapecss.com/public/shape.css" rel="stylesheet">
 
-<script src="https://www.shapecss.com/public/shape.js"></script>```
+<script src="https://www.shapecss.com/public/shape.js"></script>
+```
 
 ##Example
 ```html
