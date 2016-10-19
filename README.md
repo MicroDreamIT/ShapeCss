@@ -12,7 +12,7 @@ We found making geometrical shape is not easy but its cumbersome, and need to wr
 
 ```html 
 <link href="https://www.shapecss.com/public/shape.css" rel="stylesheet">
-
+<!--IMPORTANT: script must be add in the bottom of the body tag-->
 <script src="https://www.shapecss.com/public/shape.js"></script>
 ```
 
